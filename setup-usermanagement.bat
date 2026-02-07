@@ -49,6 +49,12 @@ dotnet add UserManagement.Api reference UserManagement.Infrastructure
 dotnet add UserManagement.Application reference UserManagement.Domain
 dotnet add UserManagement.Infrastructure reference UserManagement.Domain
 
+REM Add test project references
+echo 🧪 Setting up test project references...
+dotnet add UserManagement.UnitTests reference UserManagement.Domain
+dotnet add UserManagement.UnitTests reference UserManagement.Application
+dotnet add UserManagement.IntegrationTests reference UserManagement.Api
+
 REM Create Domain layer folders
 echo 🏛️ Creating Domain layer folders...
 mkdir UserManagement.Domain\Aggregates

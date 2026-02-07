@@ -26,6 +26,12 @@ dotnet add UserManagement.Api reference UserManagement.Infrastructure
 dotnet add UserManagement.Application reference UserManagement.Domain
 dotnet add UserManagement.Infrastructure reference UserManagement.Domain
 
+# Add test project references
+
+dotnet add UserManagement.UnitTests reference UserManagement.Domain
+dotnet add UserManagement.UnitTests reference UserManagement.Application
+dotnet add UserManagement.IntegrationTests reference UserManagement.Api
+
 mkdir UserManagement.Domain/Aggregates
 mkdir UserManagement.Domain/Entities  
 mkdir UserManagement.Domain/ValueObjects
