@@ -78,6 +78,7 @@ mkdir UserManagement.Application\Interfaces
 mkdir UserManagement.Application\Behaviors
 mkdir UserManagement.Application\EventHandlers
 mkdir UserManagement.Application\Validators
+mkdir UserManagement.Application\Mappings
 mkdir UserManagement.Application\Common
 mkdir UserManagement.Application\Common\Models
 mkdir UserManagement.Application\Common\Exceptions
