@@ -1,0 +1,12 @@
+UserManagement/UserManagement.Api/obj/
+UserManagement/UserManagement.Api/bin/
+UserManagement/UserManagement.Application/obj/
+UserManagement/UserManagement.Application/bin/
+UserManagement/UserManagement.Domain/obj/
+UserManagement/UserManagement.Domain/bin/
+UserManagement/UserManagement.Infrastructure/obj/
+UserManagement/UserManagement.Infrastructure/bin/
+UserManagement/UserManagement.UnitTests/obj/
+UserManagement/UserManagement.UnitTests/bin/
+UserManagement/UserManagement.IntegrationTests/obj/
+UserManagement/UserManagement.IntegrationTests/bin/
